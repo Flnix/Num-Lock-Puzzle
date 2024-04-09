@@ -1,0 +1,10 @@
+
+@font-face {
+  font-family: font1;
+  src: url(font1.ttf);
+}
+
+#canvas:focus { outline: none;background-color: #000511;}
+#canvas { outline: none;background-color: #000511; max-height:100vh; max-width:100vw; }
+.tab-canvas{ text-align:center; width:100%; height:100vh; vertical-align: middle;}
+body,.tab-canvas{ background-color:#000511; margin:0; padding:0; overflow: hidden;  font-family: font1;}
