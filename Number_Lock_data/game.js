@@ -201,7 +201,7 @@ function check_the_screen_code_result() {
   if(player_win){
     G.SetGameEnd(true); //End the game and set (player has win the game).
     G.PlaySound(sound.correct); // play sound correct
-    alert("Flag: Logic_Puli}")
+    alert("Flag: Logic_Tiger}")
   }
   else {
     var clone_array = [...screen_code]; // clone the current screen_code array
